@@ -9,9 +9,13 @@
 
 ## Part B. Manually Blink a LED
 
-**a. What color stripes are on a 100 Ohm resistor?**
+**a. What color stripes are on a 220 Ohm resistor?**
+
+Our resistors use the 5-band color coding scheme and have red, red, black, black, brown stripes, corresponding to 220 x1 Ohms +-1%. 
  
 **b. What do you have to do to light your LED?**
+
+Once the circuit is set up like in the diagram, pushing the button lights up the LED. I had some minor debugging issues because I (accidentally) used the long breadboard with split power/ground rails, but once I connected the rails (see red bridges in the picture from Part A) the circuit worked as intended. 
 
 
 ## Part C. Blink a LED using Arduino
@@ -20,7 +24,11 @@
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
 
+I'm confused by this question, since my LED blinks at 0.5Hz without me changing anything.
+
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+
+Lines 34 and 36 of the base sketch specify the delay lengths (in ms) that control the blink rate (currently 1s on, 1s off). Changing the function parameter for delay() here will change the blink rate.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
  

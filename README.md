@@ -2,6 +2,8 @@
 
 **A lab report by Russell Bingham**
 
+# Section 1 - Light It Up
+
 ## Part A. Set Up a Breadboard
 
 [insert a photo of your breadboard setup here]
@@ -64,6 +66,37 @@ To change the output pin from 9 to 11, I changed the value of the "led" variable
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
 According to the Arduino documentation, analogWrite() automatically outputs a PWM waveform to the specified pin, with duty cycle determined by the second argument proportional to its value in the range of 0 to 255. Contrastingly, digitalWrite() simply puts either a constant high or low voltage onto the specified pin. We can thus infer that analogWrite() is doing some ongoing internal computation to ouptut a waveform (or is outsourcing that task to a board peripheral), whereas digitalWrite() simply changes the state of a pin once. 
+
+
+# Section 2 - Make A Digital Timer!
+
+## Part A - Solder the OLED
+
+(insert pic of breadboard)
+
+## Part B - Lowly Multimeter
+
+My code to run the lowly multimeter can be found (insert link)
+
+## Part C - Rotary Encoder
+
+When set up on the breadboard, the encoder works correctly. 
+
+## Part D - Make the Arduino Sing!
+
+**a. How would you change the code to make the song play twice as fast?**
+
+On line 36 of the example, the code calculates the time-domain length of each note by dividing 1000 ms by the note lengths. By changing this line to calculate note lengths by dividing 500 by the note lengths, the song plays twice as fast.
+
+**b. What song is playing?**
+
+I think that it's Taps? I could be wrong about that. It's a recognizable jingle for sure, but I never learned the names of common jingles very well. 
+
+## Part E - Make your own timer
+
+**a. Make a short video showing how your timer works, and what happens when time is up!**
+
+**b. Post a link of the completed lab report to your GitHub repo.**
 
 
 

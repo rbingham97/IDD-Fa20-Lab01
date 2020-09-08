@@ -6,7 +6,7 @@
 
 ## Part A. Set Up a Breadboard
 
-![Breadboard pic](/images/IMG_4178.JPG "Breadboard!")
+![Breadboard pic](/images/IMG_4178.JPG "Breadboard!" =250x)
 
 ## Part B. Manually Blink a LED
 

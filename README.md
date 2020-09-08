@@ -95,7 +95,7 @@ I think that it's Taps? I could be wrong about that. It's a recognizable jingle 
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
-The video is [here](https://youtu.be/oCDRtn8BXFE).
+The video is [here](https://youtu.be/oCDRtn8BXFE), driven by [this code](./homemadeTimer.ino).
 
 **b. Post a link of the completed lab report to your GitHub repo.**
 

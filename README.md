@@ -48,7 +48,7 @@ I changed the blink cycle to make the onboard red LED match the brightness of th
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-The video is [here](https://youtu.be/ODiTFwJLC9Y).
+The video is [here](https://youtu.be/ODiTFwJLC9Y), driven by [this code](./customBlinkExternal.ino).
 
 ## Part D. Manually fade an LED
 

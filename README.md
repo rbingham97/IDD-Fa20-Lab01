@@ -75,7 +75,7 @@ See the video in part E for the breadboard setup!
 
 ## Part B - Lowly Multimeter
 
-My code to run the lowly multimeter can be found [here](./lowlyMultimeter.ino)
+My code to run the lowly multimeter can be found [here](./lowlyMultimeter.ino).
 
 ## Part C - Rotary Encoder
 
@@ -95,7 +95,7 @@ I think that it's Taps? I could be wrong about that. It's a recognizable jingle 
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
-The video is [here](https://youtu.be/oCDRtn8BXFE)
+The video is [here](https://youtu.be/oCDRtn8BXFE).
 
 **b. Post a link of the completed lab report to your GitHub repo.**
 

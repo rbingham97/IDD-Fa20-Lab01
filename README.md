@@ -6,7 +6,7 @@
 
 ## Part A. Set Up a Breadboard
 
-<img src="/images/IMG_4178.JPG" width="200" />
+<img src="/images/IMG_4178.JPG" width="500" />
 
 ## Part B. Manually Blink a LED
 

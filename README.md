@@ -6,8 +6,7 @@
 
 ## Part A. Set Up a Breadboard
 
-[insert a photo of your breadboard setup here]
-
+![Breadboard pic](/images/IMG_4178.JPG "Breadboard!")
 
 ## Part B. Manually Blink a LED
 
@@ -42,14 +41,14 @@ When the delay is 15 ms on, 15 ms off, I can see the LED visually vibrating, but
 
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
 
-I changed the blink cycle to make the onboard red LED match the brightness of the green power LED. After some trial and error, I generated code (insert link) that blinks the LED with a manual 20% PWM duty cycle, roughly matching the brightness of the two LEDs. 
+I changed the blink cycle to make the onboard red LED match the brightness of the green power LED. After some trial and error, I generated [code](./customBlink.ino) that blinks the LED with a manual 20% PWM duty cycle, roughly matching the brightness of the two LEDs. 
 
 
 ### 2. Blink your LED
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-(insert link)
+The video is [here](https://youtu.be/ODiTFwJLC9Y).
 
 ## Part D. Manually fade an LED
 
@@ -72,11 +71,11 @@ According to the Arduino documentation, analogWrite() automatically outputs a PW
 
 ## Part A - Solder the OLED
 
-(insert pic of breadboard)
+See the video in part E for the breadboard setup!
 
 ## Part B - Lowly Multimeter
 
-My code to run the lowly multimeter can be found (insert link)
+My code to run the lowly multimeter can be found [here](./lowlyMultimeter.ino)
 
 ## Part C - Rotary Encoder
 
@@ -96,8 +95,11 @@ I think that it's Taps? I could be wrong about that. It's a recognizable jingle 
 
 **a. Make a short video showing how your timer works, and what happens when time is up!**
 
+The video is [here](https://youtu.be/oCDRtn8BXFE)
+
 **b. Post a link of the completed lab report to your GitHub repo.**
 
+Done!
 
 
 
